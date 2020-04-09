@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    $(".header").hide();
-    $(".header").fadeIn();
+    $(".navbar").hide();
+    $(".navbar").slideDown('slow');
 });
 

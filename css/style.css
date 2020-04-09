@@ -1,10 +1,7 @@
 
-
-
-
-/* body * {
+body * {
     outline: 1px solid pink;
-} */
+} 
 
 img {
     width: 100%;
@@ -26,14 +23,15 @@ img {
 }
 
 .thenav {
-    background-color:rgb(230,203,143);
+    background-color:rgb(193,77,63);
 }
 
 .navbar-nav a {
-    color:rgb(193,77,63);
+    color:rgb(226,221,220);
+    padding-top: 30px;
 }
 .navbar-nav a:hover {
-    color: rgb(226,221,220);
+    color: rgb(230,203,143);
 }
 
 .content {
@@ -50,3 +48,29 @@ img {
 .caption {
     font-size: .8rem
 }
+
+/* this gives enough headroom for the subject to properly display with each
+content item */
+
+.content-pad {
+    height: 85px;
+}
+
+#header-title {
+    color: rgb(230,203,143);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+
+}
+
+/* media queries  */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+    .content-pad {
+        height: 325px;
+    }
+
+
+ }
